@@ -11,6 +11,6 @@ interface EvolvableLinkInterface extends PsrEvolvableLinkInterface
     public function withHref(Stringable|string $href): static;
     public function withRel(string $rel): static;
     public function withoutRel(string $rel): static;
-    public function withAttribute(string $attribute, string $value): static;
+    public function withAttribute(string $attribute, mixed $value): static;
     public function withoutAttribute(string $attribute): static;
 }
