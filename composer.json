@@ -4,6 +4,7 @@
     "type": "library",
     "require": {
         "php": "^8.3",
+        "potter/link-interface": "dev-main",
         "psr/link": "^2.0@dev"
     },
     "license": "MIT",
