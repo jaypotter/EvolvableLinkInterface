@@ -4,6 +4,8 @@ declare(strict_types=1);
 
 namespace Potter\Link\Evolvable;
 
+use \Stringable;
+
 abstract class AbstractEvolvableLink implements EvolvableLinkInterface
 {
     abstract public function withHref(Stringable|string $href): static;
