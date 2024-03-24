@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-use \Psr\Link\EvolvableLinkInterface as PsrEvolvableLinkInterface;
-
 namespace Potter\Link\Evolvable;
+
+use \Psr\Link\EvolvableLinkInterface as PsrEvolvableLinkInterface;
 
 interface EvolvableLinkInterface extends PsrEvolvableLinkInterface
 {
